@@ -4,6 +4,9 @@
 ; This is the bootloader and a kernel combined together. It will not utilize any secondary storage. The kernel is
 ; so small that it should fit into primary storage just fine. In fact, it fits into less than a single sector!
 ;
+; Copyright 2021 Kyle Smith
+; Licensed under GPL-3.0-or-later
+;
 
 
 org	0x7c00					; add offsets starting with 0x7c00
